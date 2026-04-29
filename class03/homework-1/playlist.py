@@ -18,7 +18,6 @@ class Playlist:
     def add_song(self):
         self.song_count += 1
         
-    
     def remove_song(self):
         if self.song_count > 0:
             self.song_count -= 1

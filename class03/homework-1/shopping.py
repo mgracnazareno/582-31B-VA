@@ -29,3 +29,7 @@ shopper1.add_item(5)
 shopper1.show_cart()
 shopper1.remove_item(2)
 shopper1.show_cart()
+
+shopper2 = ShoppingCart("Lee", 10)
+shopper2.add_item(3)
+shopper2.show_cart()
