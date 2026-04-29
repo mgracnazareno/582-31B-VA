@@ -37,9 +37,7 @@ playlist.add_song()
 playlist.show_info()
 playlist.remove_song()
 playlist.show_info()
-playlist.add_song()
-playlist.add_song()
-playlist.show_info()
+
 
 
 
