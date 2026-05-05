@@ -63,6 +63,12 @@ print(f"Product: {prod1.name} | Price: ${prod1.price} | Price with Tax: ${prod1.
 print(f"Product: {prod2.name} | Price: ${prod2.price} | Price with Tax: ${prod2.price_with_tax():.2f}")
 print(f"Product: {prod3.name} | Price: ${prod3.price} | Price with Tax: ${prod3.price_with_tax():.2f}")
 
+print("\n--- Product with tax rate 0.20 ----")
+Product.tax_rate = 0.20
+print(f"Product: {prod1.name} | Price: ${prod1.price} | Price with Tax: ${prod1.price_with_tax():.2f}")
+print(f"Product: {prod2.name} | Price: ${prod2.price} | Price with Tax: ${prod2.price_with_tax():.2f}")
+print(f"Product: {prod3.name} | Price: ${prod3.price} | Price with Tax: ${prod3.price_with_tax():.2f}")
+
 print("\n---- Exercise 4 -----")
 class Employee:
     company_name = "Technova"
