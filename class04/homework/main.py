@@ -53,7 +53,7 @@ class Product:
         self.price = price
 
     def price_with_tax(self):
-        return self.price + (self.price + self.tax_rate)
+        return self.price + (self.price * self.tax_rate)
 
 prod1 = Product("Keyboard", 25.99)
 prod2 = Product("Mouse", 59.99)
