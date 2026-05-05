@@ -37,8 +37,10 @@ class Student:
 
 s1 = Student("Alice", "Web development", "88")
 s2 = Student("James", "Web Design", 90)
+s3 = Student("King", "Computing Analyst", 93)
 s1.display_info()
 s2.display_info()
+s3.display_info()
 print(f"Student Count: " , Student.student_count)
 
 print("\n---- Exercise 3 -----")
